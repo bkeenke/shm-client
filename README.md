@@ -47,7 +47,6 @@ services:
 | `TELEGRAM_WEBAPP_AUTH_ENABLE` | Авторизация через телеграмм вебапп | `false` |
 | `TELEGRAM_WEBAPP_PROFILE` | Название бота (профиля) в SHM | - |
 | `SUPPORT_LINK` | Ссылка на поддержку | - |
-| `RESOLVER` | DNS резолвер для nginx | `127.0.0.11` |
 | `OTP_ENABLE` | Показать настройки OTP | `true` |
 | `PASSKEY_ENABLE` | Показать настройки Passkey | `true` |
 
