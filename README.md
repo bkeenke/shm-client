@@ -20,7 +20,7 @@ services:
 #   admin:
 #     ...
   client:
-    image: bkeenke/shm-client:latest
+    image: danuk/shm-client-2:latest
     pull_policy: always
     restart: always
     ports:
