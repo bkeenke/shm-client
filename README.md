@@ -24,7 +24,7 @@ services:
     pull_policy: always
     restart: always
     ports:
-      - "8082:80"
+      - "127.0.0.1:8082:80"
     environment:
       - SHM_URL=http://api
       - APP_NAME=My Service
@@ -49,6 +49,7 @@ services:
 | `SUPPORT_LINK` | Ссылка на поддержку | - |
 | `OTP_ENABLE` | Показать настройки OTP | `true` |
 | `PASSKEY_ENABLE` | Показать настройки Passkey | `true` |
+| `PASSKEY_AUTH_DISABLED` | Скрыть кнопку авторизации через Passkey | `false` |
 | `BITRIX_WIDGET_SCRIPT_URL` | URL виждета Битрих-24 (https://cdn-ru.bitrix24.ru/b********/crm/site_button/loader_****.js)| - |
 | `PROXY_CATEGORY` | Категория прокси чтобы показать ссылку на подписку (vpn-remna) | - |
 | `PROXY_STORAGE_PREFIX` | префикс для категории proxy в хранилище, например 'vpm_remna_' | 'vpm_mrzb_' |
